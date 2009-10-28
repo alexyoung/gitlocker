@@ -2,9 +2,9 @@ h3. Introduction
 
 This is a Sinatra application that stores versions of things in Git repositories.  It's intended to be used to store versions of database fields:
 
-* The repository is intended to be mapped to users of your applications
-* The repository holds database fields
-* A restful interface provides access to versions
+* The app has a HTTP-based interface
+* Each repository is mapped to a high-level categorisation (I use users, so each user has their own repo)
+* Each repository holds database fields.  If you checked out a copy, you'd see things like <code>1_field_name</code> where 1 maps to a database table ID
 * The repository can be deleted if the user leaves the service
 
 h3. Configuration
