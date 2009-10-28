@@ -11,11 +11,13 @@ h3. Configuration
 
 Create a <code>config.yml</code> file in the same location as this README that specifies the location for the repositories:
 
-<code>
+<pre>
 path:
   tmp/
-</code>
+</pre>
 
 h3. Client Library
 
-Give me a minute
+I've written a client library that includes a Rails ActiveRecord plugin here:
+
+"gitlocker-client":http://github.com/alexyoung/gitlocker-client
